@@ -1,0 +1,28 @@
+{
+  "name": "be-apontamento-func",
+  "version": "1.0.0",
+  "main": "",
+  "scripts": {
+    "start": "func start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "axios": "^1.10.0",
+    "azure-devops-node-api": "^15.1.0",
+    "express": "^5.1.0",
+    "node-fetch": "^2.7.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "azure-functions-core-tools": "^4.x",
+    "dotenv": "^17.0.1",
+    "jest": "^30.0.3",
+    "node-mocks-http": "^1.17.2",
+    "supertest": "^7.1.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
