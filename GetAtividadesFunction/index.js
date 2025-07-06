@@ -3,11 +3,10 @@ const pool = require("../shared/db");
 module.exports = async function (context, req) {
   try {
     const query = `
-      SELECT "Id", "Nome"
+      SELECT "Id", "Nome", "Descricao", "Ativo", "CriadoEm"
       FROM public."vw_AtividadesAtivas"
       ORDER BY "Nome"
     `;
-
     const result = await pool.query(query);
 
     context.res = {
